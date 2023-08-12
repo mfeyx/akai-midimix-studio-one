@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DeviceDefinition
+  classID="{F5CDD6AF-976D-F346-A4E3-9733E73FF8D1}"
+  name="Midimix"
+  category="Surface"
+  nativeCode="ControlSurfaceDevice"
+  vendor="AKAI"
+  surfaceFile="Midimix.surface.xml"
+/>

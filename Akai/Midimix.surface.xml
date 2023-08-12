@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ControlSurface>
+
+	<Controls>
+
+	<!-- ******************************************************************************************** -->
+	<!-- ENCODER -->
+	<!-- ******************************************************************************************** -->
+
+	<!-- ROW 1 -->
+		<Control name="enc1[0]" title="R1C1" type="knob" options="receive public"><MidiMessage status="#B0" channel="0" address="#19"/></Control>
+		<Control name="enc1[1]" title="R1C2" type="knob" options="receive public"><MidiMessage status="#B0" channel="0" address="#1C"/></Control>
+		<Control name="enc1[2]" title="R1C3" type="knob" options="receive public"><MidiMessage status="#B0" channel="0" address="#1F"/></Control>
+		<Control name="enc1[3]" title="R1C4" type="knob" options="receive public"><MidiMessage status="#B0" channel="0" address="#22"/></Control>
+		<Control name="enc1[4]" title="R1C5" type="knob" options="receive public"><MidiMessage status="#B0" channel="0" address="#2E"/></Control>
+		<Control name="enc1[5]" title="R1C6" type="knob" options="receive public"><MidiMessage status="#B0" channel="0" address="#32"/></Control>
+		<Control name="enc1[6]" title="R1C7" type="knob" options="receive public"><MidiMessage status="#B0" channel="0" address="#36"/></Control>
+		<Control name="enc1[7]" title="R1C8" type="knob" options="receive public"><MidiMessage status="#B0" channel="0" address="#3A"/></Control>
+
+	<!-- ROW 2 -->
+		<Control name="enc2[0]" title="R2C1" type="knob" options="receive public"><MidiMessage status="#B0" channel="0" address="#1A"/></Control>
+		<Control name="enc2[1]" title="R2C2" type="knob" options="receive public"><MidiMessage status="#B0" channel="0" address="#1D"/></Control>
+		<Control name="enc2[2]" title="R2C3" type="knob" options="receive public"><MidiMessage status="#B0" channel="0" address="#20"/></Control>
+		<Control name="enc2[3]" title="R2C4" type="knob" options="receive public"><MidiMessage status="#B0" channel="0" address="#23"/></Control>
+		<Control name="enc2[4]" title="R2C5" type="knob" options="receive public"><MidiMessage status="#B0" channel="0" address="#2F"/></Control>
+		<Control name="enc2[5]" title="R2C6" type="knob" options="receive public"><MidiMessage status="#B0" channel="0" address="#33"/></Control>
+		<Control name="enc2[6]" title="R2C7" type="knob" options="receive public"><MidiMessage status="#B0" channel="0" address="#37"/></Control>
+		<Control name="enc2[7]" title="R2C8" type="knob" options="receive public"><MidiMessage status="#B0" channel="0" address="#3B"/></Control>
+
+	<!-- ROW 3 -->
+	<!-- Panning -->
+		<Control name="pan[0]" title="R3C1" type="knob" options="receive transmit nofeedback"><MidiMessage status="#B0" channel="0" address="#1B"/></Control>
+		<Control name="pan[1]" title="R3C2" type="knob" options="receive transmit nofeedback"><MidiMessage status="#B0" channel="0" address="#1E"/></Control>
+		<Control name="pan[2]" title="R3C3" type="knob" options="receive transmit nofeedback"><MidiMessage status="#B0" channel="0" address="#21"/></Control>
+		<Control name="pan[3]" title="R3C4" type="knob" options="receive transmit nofeedback"><MidiMessage status="#B0" channel="0" address="#24"/></Control>
+		<Control name="pan[4]" title="R3C5" type="knob" options="receive transmit nofeedback"><MidiMessage status="#B0" channel="0" address="#30"/></Control>
+		<Control name="pan[5]" title="R3C6" type="knob" options="receive transmit nofeedback"><MidiMessage status="#B0" channel="0" address="#34"/></Control>
+		<Control name="pan[6]" title="R3C7" type="knob" options="receive transmit nofeedback"><MidiMessage status="#B0" channel="0" address="#38"/></Control>
+		<Control name="pan[7]" title="R3C8" type="knob" options="receive transmit nofeedback"><MidiMessage status="#B0" channel="0" address="#3C"/></Control>
+
+
+	<!-- ******************************************************************************************** -->
+	<!-- BUTTONS -->
+	<!-- ******************************************************************************************** -->
+
+	<!-- Mute -->
+		<Control name="muteButton[0]" type="trigger" options="receive"> <MidiMessage status="#90" address="#10"/> </Control>
+		<Control name="muteButton[1]" type="trigger" options="receive"> <MidiMessage status="#90" address="#11"/> </Control>
+		<Control name="muteButton[2]" type="trigger" options="receive"> <MidiMessage status="#90" address="#12"/> </Control>
+		<Control name="muteButton[3]" type="trigger" options="receive"> <MidiMessage status="#90" address="#13"/> </Control>
+		<Control name="muteButton[4]" type="trigger" options="receive"> <MidiMessage status="#90" address="#14"/> </Control>
+		<Control name="muteButton[5]" type="trigger" options="receive"> <MidiMessage status="#90" address="#15"/> </Control>
+		<Control name="muteButton[6]" type="trigger" options="receive"> <MidiMessage status="#90" address="#16"/> </Control>
+		<Control name="muteButton[7]" type="trigger" options="receive"> <MidiMessage status="#90" address="#17"/> </Control>
+
+		<Control name="muteLED[0]" options="transmit"> <MidiMessage status="#90" address="#01"/> </Control>
+		<Control name="muteLED[1]" options="transmit"> <MidiMessage status="#90" address="#04"/> </Control>
+		<Control name="muteLED[2]" options="transmit"> <MidiMessage status="#90" address="#07"/> </Control>
+		<Control name="muteLED[3]" options="transmit"> <MidiMessage status="#90" address="#0A"/> </Control>
+		<Control name="muteLED[4]" options="transmit"> <MidiMessage status="#90" address="#0D"/> </Control>
+		<Control name="muteLED[5]" options="transmit"> <MidiMessage status="#90" address="#10"/> </Control>
+		<Control name="muteLED[6]" options="transmit"> <MidiMessage status="#90" address="#13"/> </Control>
+		<Control name="muteLED[7]" options="transmit"> <MidiMessage status="#90" address="#16"/> </Control>
+
+	<!-- Rec Arm -->
+		<Control name="recordButton[0]" title="R1" type="trigger" options="receive public"> <MidiMessage status="#90" address="#00"/> </Control>
+		<Control name="recordButton[1]" title="R2" type="trigger" options="receive public"> <MidiMessage status="#90" address="#01"/> </Control>
+		<Control name="recordButton[2]" title="R3" type="trigger" options="receive public"> <MidiMessage status="#90" address="#02"/> </Control>
+		<Control name="recordButton[3]" title="R4" type="trigger" options="receive public"> <MidiMessage status="#90" address="#03"/> </Control>
+		<Control name="recordButton[4]" title="R5" type="trigger" options="receive public"> <MidiMessage status="#90" address="#04"/> </Control>
+		<Control name="recordButton[5]" title="R6" type="trigger" options="receive public"> <MidiMessage status="#90" address="#05"/> </Control>
+		<Control name="recordButton[6]" title="R7" type="trigger" options="receive public"> <MidiMessage status="#90" address="#06"/> </Control>
+		<Control name="recordButton[7]" title="R8" type="trigger" options="receive public"> <MidiMessage status="#90" address="#07"/> </Control>
+
+		<Control name="recordLED[0]" options="transmit"> <MidiMessage status="#90" address="#03"/> </Control>
+		<Control name="recordLED[1]" options="transmit"> <MidiMessage status="#90" address="#06"/> </Control>
+		<Control name="recordLED[2]" options="transmit"> <MidiMessage status="#90" address="#09"/> </Control>
+		<Control name="recordLED[3]" options="transmit"> <MidiMessage status="#90" address="#0C"/> </Control>
+		<Control name="recordLED[4]" options="transmit"> <MidiMessage status="#90" address="#0F"/> </Control>
+		<Control name="recordLED[5]" options="transmit"> <MidiMessage status="#90" address="#12"/> </Control>
+		<Control name="recordLED[6]" options="transmit"> <MidiMessage status="#90" address="#15"/> </Control>
+		<Control name="recordLED[7]" options="transmit"> <MidiMessage status="#90" address="#18"/> </Control>
+
+	<!-- Solo Button -> Solo + Mute -->
+		<Control name="soloButton[0]" type="trigger" options="receive"> <MidiMessage status="#90" address="#64"/> </Control>
+		<Control name="soloButton[1]" type="trigger" options="receive"> <MidiMessage status="#90" address="#65"/> </Control>
+		<Control name="soloButton[2]" type="trigger" options="receive"> <MidiMessage status="#90" address="#66"/> </Control>
+		<Control name="soloButton[3]" type="trigger" options="receive"> <MidiMessage status="#90" address="#67"/> </Control>
+		<Control name="soloButton[4]" type="trigger" options="receive"> <MidiMessage status="#90" address="#68"/> </Control>
+		<Control name="soloButton[5]" type="trigger" options="receive"> <MidiMessage status="#90" address="#69"/> </Control>
+		<Control name="soloButton[6]" type="trigger" options="receive"> <MidiMessage status="#90" address="#6A"/> </Control>
+		<Control name="soloButton[7]" type="trigger" options="receive"> <MidiMessage status="#90" address="#6B"/> </Control>
+
+		<Control name="soloLED[0]" options="transmit"> <MidiMessage status="#90" address="#64"/> </Control>
+		<Control name="soloLED[1]" options="transmit"> <MidiMessage status="#90" address="#65"/> </Control>
+		<Control name="soloLED[2]" options="transmit"> <MidiMessage status="#90" address="#66"/> </Control>
+		<Control name="soloLED[3]" options="transmit"> <MidiMessage status="#90" address="#67"/> </Control>
+		<Control name="soloLED[4]" options="transmit"> <MidiMessage status="#90" address="#68"/> </Control>
+		<Control name="soloLED[5]" options="transmit"> <MidiMessage status="#90" address="#69"/> </Control>
+		<Control name="soloLED[6]" options="transmit"> <MidiMessage status="#90" address="#6A"/> </Control>
+		<Control name="soloLED[7]" options="transmit"> <MidiMessage status="#90" address="#6B"/> </Control>
+
+	<!-- ******************************************************************************************** -->
+	<!-- FADERS -->
+	<!-- ******************************************************************************************** -->
+
+	<!-- Channels -->
+		<Control name="fader[0]" title="F1" type="fader" options="transmit receive"><MidiMessage status="#B0" channel="0" address="#63"/></Control>
+		<Control name="fader[1]" title="F2" type="fader" options="transmit receive"><MidiMessage status="#B0" channel="0" address="#62"/></Control>
+		<Control name="fader[2]" title="F3" type="fader" options="transmit receive"><MidiMessage status="#B0" channel="0" address="#61"/></Control>
+		<Control name="fader[3]" title="F4" type="fader" options="transmit receive"><MidiMessage status="#B0" channel="0" address="#60"/></Control>
+		<Control name="fader[4]" title="F5" type="fader" options="transmit receive"><MidiMessage status="#B0" channel="0" address="#5F"/></Control>
+		<Control name="fader[5]" title="F6" type="fader" options="transmit receive"><MidiMessage status="#B0" channel="0" address="#5E"/></Control>
+		<Control name="fader[6]" title="F7" type="fader" options="transmit receive"><MidiMessage status="#B0" channel="0" address="#5D"/></Control>
+		<Control name="fader[7]" title="F8" type="fader" options="transmit receive"><MidiMessage status="#B0" channel="0" address="#5C"/></Control>
+
+	<!-- Master Fader -->
+		<Control name="masterFader" title="M" type="fader" options="transmit receive"><MidiMessage status="#B0" channel="0" address="#5A"/></Control>
+
+	<!-- Fader Banks -->
+		<Control name="faderBankLeft"  title="Left"   type="trigger" options="receive public"> <MidiMessage status="#90" address="#19"/> </Control>
+		<Control name="faderBankRight" title="Right"  type="trigger" options="receive public"> <MidiMessage status="#90" address="#1A"/> </Control>
+
+	</Controls>
+
+	<!-- ******************************************************************************************** -->
+	<!-- SURFACE MAPPINGS -->
+	<!-- ******************************************************************************************** -->
+
+	<Mappings>
+
+		<DeviceMapping device="MixerConsole" name="MixerMapping">
+			<!-- 8 Channel Strips -->
+			<PlacementBank target="RemoteBank" pagesize="8" name="MixerBank">
+				<foreach variable="$ch" count="8">
+					<Strip>
+						<Value control="fader[$ch]" param="volume"/>
+						<Value control="pan[$ch]" param="pan"/>
+
+						<Toggle control="recordButton[$ch]" param="recordArmed"/>
+						<Value control="recordLED[$ch]" param="recordArmed"/>
+
+						<Toggle control="soloButton[$ch]" param="solo" options="momentary"/>
+
+						<Toggle control="muteButton[$ch]" param="mute" options="momentary"/>
+						<Value control="muteLED[$ch]" param="mute"/>
+					</Strip>
+				</foreach>
+				<!-- Bank Scroll Buttons -->
+				<ScrollButton control="faderBankLeft"  direction="pageleft"/>
+				<ScrollButton control="faderBankRight" direction="pageright"/>
+
+			</PlacementBank>
+
+			<Bank target="MasterBank">
+				<Strip>
+					<Value control="masterFader" param="volume"/>
+				</Strip>
+			</Bank>
+
+		</DeviceMapping>
+
+	</Mappings>
+
+</ControlSurface>

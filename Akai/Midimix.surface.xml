@@ -28,15 +28,15 @@
 		<Control name="enc2[7]" title="R2C8" type="knob" options="receive public"><MidiMessage status="#B0" channel="0" address="#3B"/></Control>
 
 	<!-- ROW 3 -->
-	<!-- Panning -->
-		<Control name="pan[0]" title="R3C1" type="knob" options="receive transmit nofeedback"><MidiMessage status="#B0" channel="0" address="#1B"/></Control>
-		<Control name="pan[1]" title="R3C2" type="knob" options="receive transmit nofeedback"><MidiMessage status="#B0" channel="0" address="#1E"/></Control>
-		<Control name="pan[2]" title="R3C3" type="knob" options="receive transmit nofeedback"><MidiMessage status="#B0" channel="0" address="#21"/></Control>
-		<Control name="pan[3]" title="R3C4" type="knob" options="receive transmit nofeedback"><MidiMessage status="#B0" channel="0" address="#24"/></Control>
-		<Control name="pan[4]" title="R3C5" type="knob" options="receive transmit nofeedback"><MidiMessage status="#B0" channel="0" address="#30"/></Control>
-		<Control name="pan[5]" title="R3C6" type="knob" options="receive transmit nofeedback"><MidiMessage status="#B0" channel="0" address="#34"/></Control>
-		<Control name="pan[6]" title="R3C7" type="knob" options="receive transmit nofeedback"><MidiMessage status="#B0" channel="0" address="#38"/></Control>
-		<Control name="pan[7]" title="R3C8" type="knob" options="receive transmit nofeedback"><MidiMessage status="#B0" channel="0" address="#3C"/></Control>
+		<!-- GLOBAL MODE: Panning -->
+		<Control name="pan[0]" title="R3C1" type="knob" options="receive public"><MidiMessage status="#B0" channel="0" address="#1B"/></Control>
+		<Control name="pan[1]" title="R3C2" type="knob" options="receive public"><MidiMessage status="#B0" channel="0" address="#1E"/></Control>
+		<Control name="pan[2]" title="R3C3" type="knob" options="receive public"><MidiMessage status="#B0" channel="0" address="#21"/></Control>
+		<Control name="pan[3]" title="R3C4" type="knob" options="receive public"><MidiMessage status="#B0" channel="0" address="#24"/></Control>
+		<Control name="pan[4]" title="R3C5" type="knob" options="receive public"><MidiMessage status="#B0" channel="0" address="#30"/></Control>
+		<Control name="pan[5]" title="R3C6" type="knob" options="receive public"><MidiMessage status="#B0" channel="0" address="#34"/></Control>
+		<Control name="pan[6]" title="R3C7" type="knob" options="receive public"><MidiMessage status="#B0" channel="0" address="#38"/></Control>
+		<Control name="pan[7]" title="R3C8" type="knob" options="receive public"><MidiMessage status="#B0" channel="0" address="#3C"/></Control>
 
 
 	<!-- ******************************************************************************************** -->

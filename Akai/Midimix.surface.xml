@@ -115,7 +115,7 @@
 		<Control name="fader[7]" title="F8" type="fader" options="transmit receive public"><MidiMessage status="#B0" channel="0" address="#5C"/></Control>
 
 	<!-- Master Fader -->
-		<Control name="masterFader" title="M" type="fader" options="transmit receive public"><MidiMessage status="#B0" channel="0" address="#5A"/></Control>
+		<Control name="masterFader" title="Main/Gain" type="fader" options="transmit receive public"><MidiMessage status="#B0" channel="0" address="#5A"/></Control>
 
 	<!-- Fader Banks -->
 		<Control name="faderBankLeft"  title="Left"   type="trigger" options="receive public"> <MidiMessage status="#90" address="#19"/> </Control>

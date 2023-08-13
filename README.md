@@ -11,6 +11,12 @@ This is the `AKAI Midimix` controller integration for `Presonus Studio One`
   <PlacementBank target="RemoteBank" pagesize="8" name="MixerBank">
   ```
 
+- [x] Encoders working in global and focus mode
+
+In `global` mode the encoders are set up as follows:
+- Row 1 & 2: Adjust the `send level` for the first and second send insert.
+- Row 3: Used for panorama
+
 ## Configuration and Installation
 This repo contains three files that you need for the configuration:
 
